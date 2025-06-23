@@ -1,8 +1,8 @@
 import java.util.Scanner;
 import java.time.Year;
 
-public class Age {
-    public static void age(String[] args)  {
+public class Main {
+    public static void main(String[] args)  {
         
         //Recebe nome e ano de nascimento, retorna valores e determina faixa etária.
         int currentYear = Year.now().getValue();
